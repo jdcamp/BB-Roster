@@ -1,0 +1,64 @@
+{
+    "players":
+        [{
+                "name": "Ryan",
+                "playerNumber": 1,
+                "postion": "PG"
+            },
+            {
+                "name": "Michelle",
+                "playerNumber": 2,
+                "postion": "C"
+            },
+            {
+                "name": "Johnny",
+                "playerNumber": 3,
+                "postion": "C"
+            },
+            {
+                "name": "Doris",
+                "playerNumber": 4,
+                "postion": "PG"
+            },
+            {
+                "name": "Stephen",
+                "playerNumber": 5,
+                "postion": "SF"
+            },
+            {
+                "name": "Barbara",
+                "playerNumber": 6,
+                "postion": "SF"
+            },
+            {
+                "name": "Katherine",
+                "playerNumber": 7,
+                "postion": "SF"
+            },
+            {
+                "name": "Barbara",
+                "playerNumber": 8,
+                "postion": "SG"
+            },
+            {
+                "name": "John",
+                "playerNumber": 9,
+                "postion": "SG"
+            },
+            {
+                "name": "Amy",
+                "playerNumber": 10,
+                "postion": "PF"
+            },
+            {
+                "name": "Bruce",
+                "playerNumber": 11,
+                "postion": "PF"
+            },
+            {
+                "name": "Dorothy",
+                "playerNumber": 12,
+                "postion": "SF"
+            }
+        ]
+}
