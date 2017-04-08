@@ -2,62 +2,62 @@
     "players":
         [{
                 "name": "Ryan",
-                "playerNumber": 1,
+                "id": 1,
                 "postion": "PG"
             },
             {
                 "name": "Michelle",
-                "playerNumber": 2,
+                "id": 2,
                 "postion": "C"
             },
             {
                 "name": "Johnny",
-                "playerNumber": 3,
+                "id": 3,
                 "postion": "C"
             },
             {
                 "name": "Doris",
-                "playerNumber": 4,
+                "id": 4,
                 "postion": "PG"
             },
             {
                 "name": "Stephen",
-                "playerNumber": 5,
+                "id": 5,
                 "postion": "SF"
             },
             {
                 "name": "Barbara",
-                "playerNumber": 6,
+                "id": 6,
                 "postion": "SF"
             },
             {
                 "name": "Katherine",
-                "playerNumber": 7,
+                "id": 7,
                 "postion": "SF"
             },
             {
                 "name": "Barbara",
-                "playerNumber": 8,
+                "id": 8,
                 "postion": "SG"
             },
             {
                 "name": "John",
-                "playerNumber": 9,
+                "id": 9,
                 "postion": "SG"
             },
             {
                 "name": "Amy",
-                "playerNumber": 10,
+                "id": 10,
                 "postion": "PF"
             },
             {
                 "name": "Bruce",
-                "playerNumber": 11,
+                "id": 11,
                 "postion": "PF"
             },
             {
                 "name": "Dorothy",
-                "playerNumber": 12,
+                "id": 12,
                 "postion": "SF"
             }
         ]

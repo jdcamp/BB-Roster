@@ -20,7 +20,7 @@ export class IndexComponent implements OnInit {
   }
   viewPlayer(player: Player) {
       alert(player.name);
-      this.router.navigate(['player', player.playerNumber]);
+      this.router.navigate(['player', player.$key]);
   }
 
 }
