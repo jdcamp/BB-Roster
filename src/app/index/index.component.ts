@@ -13,10 +13,14 @@ import { Router } from '@angular/router';
 })
 export class IndexComponent implements OnInit {
   players: FirebaseListObservable<any[]>;
-  constructor(private router: Router, private playerService: PlayerService){}
+  constructor(private router: Router, private playerService: PlayerService) {}
 
   ngOnInit() {
       this.players = this.playerService.getPlayers();
+  }
+  viewPlayer(player: Player) {
+      alert(player.name);
+      this.router.navigate(['player', player.$key]);
   }
 
 }

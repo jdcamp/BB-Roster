@@ -9,6 +9,7 @@ import { masterFirebaseConfig } from './api-keys';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { IndexComponent } from './index/index.component';
+import { PlayerPageComponent } from './player-page/player-page.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -21,7 +22,8 @@ export const firebaseConfig = {
   declarations: [
     AppComponent,
     AboutComponent,
-    IndexComponent
+    IndexComponent,
+    PlayerPageComponent
   ],
   imports: [
     BrowserModule,
