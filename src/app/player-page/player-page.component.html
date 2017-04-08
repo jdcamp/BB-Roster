@@ -1,3 +1,5 @@
+<div *ngIf="playerToDisplay">
 <p>
-  {{playerNumber}}
+  {{(playerToDisplay | async)?.name}}
 </p>
+</div>

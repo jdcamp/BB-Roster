@@ -18,8 +18,7 @@ export class IndexComponent implements OnInit {
   ngOnInit() {
       this.players = this.playerService.getPlayers();
   }
-  viewPlayer(player: Player) {
-      alert(player.name);
+  viewPlayer(player) {
       this.router.navigate(['player', player.$key]);
   }
 
