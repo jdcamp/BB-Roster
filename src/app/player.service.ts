@@ -7,10 +7,14 @@ export class PlayerService {
   players: FirebaseListObservable<any[]>;
 
   constructor(private angularFire: AngularFire) {
-      this.players = angularFire.database.list('players');
+    this.players = angularFire.database.list('players');
   }
   getPlayers() {
     return this.players;
+  }
+
+  addPlayer(newPlayer: Player) {
+    this.players.push(newPlayer);
   }
 
 
