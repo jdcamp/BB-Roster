@@ -1,5 +1,10 @@
 <div *ngIf="playerToDisplay">
-<p>
-  {{(playerToDisplay | async)?.name}}
-</p>
+  <div class="panel panel-default">
+
+    <h3 class="panel-heading">{{(playerToDisplay | async)?.name}}</h3>
+    <div class="panel-body">
+      {{(playerToDisplay | async)?.position}}<br> {{(playerToDisplay | async)?.playerNumber}}
+    </div>
+  </div>
+
 </div>
