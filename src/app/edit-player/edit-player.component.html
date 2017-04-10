@@ -4,9 +4,16 @@
 <input [(ngModel)]="currentPlayer.name">
 <br>
 
-<label>Player Position:</label>
-<input [(ngModel)]="currentPlayer.position">
+<!--
+<input type="button" name="position" value="PG">
+<input type="button" name="position" value="SG">
+<input type="button" name="position" value="SF">
+<input type="button" name="position" value="PF">
+<input type="button" name="position" value="C"> -->
+
 <br>
 
 <label>Player Number:</label>
-<input [(ngModel)]="currentPlayer.id">
+<input [(ngModel)]="currentPlayer.playerNumber">
+
+<button type="button" class="btn" name="button" (click)="deletePlayerButton(currentPlayer)">Delete</button>

@@ -13,11 +13,15 @@ export class PlayerService {
     return this.players;
   }
   getPlayer(playerKey) {
-     return this.angularFire.database.object('players/' + playerKey);
-   }
+    return this.angularFire.database.object('players/' + playerKey);
+  }
 
   addPlayer(newPlayer: Player) {
     this.players.push(newPlayer);
+  }
+  deletePlayer(playerToDelete) {
+    let fbPlayerObj = this.getPlayer(playerToDelete.$key);
+    fbPlayerObj.remove();
   }
 
 
