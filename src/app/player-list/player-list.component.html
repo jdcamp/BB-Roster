@@ -1,6 +1,12 @@
-<div *ngFor="let player of players | async" class="panel panel-default" (click)="viewPlayer(player)">
+<div *ngFor="let player of players | async" class="panel panel-default">
   <div class="panel-body">
     <h3>{{player.name}}</h3>
-    <h3>{{player.$key}}</h3>
+    <div *ngIf="currentRoute === '/'">
+        <button type="button" name="button" class="btn btn-default pull-right"  (click)="viewPlayer(player)">View {{player.name}}'s details</button>
+    </div>
+    <div *ngIf="currentRoute === '/manager'">
+      <h3>{{player.$key}}</h3>
+      <app-edit-player [currentPlayer]="player"></app-edit-player>
+    </div>
   </div>
 </div>
