@@ -1,6 +1,15 @@
-  <div *ngFor="let player of players | async" class="panel panel-default">
-    <div *ngIf="player | position:playerPos">
+<select (change)="onChange($event.target.value)">
+  <option value="all" selected="true">All</option>
+  <option value="PG">Point Guard</option>
+  <option value="SG">Shooting Guard</option>
+  <option value="SF">Small Forward</option>
+  <option value="PF">Power Forward</option>
+  <option value="C">Center</option>
+</select>
 
+<div *ngFor="let player of players | async">
+  <div *ngIf="player | position:playerPos">
+    <div class="panel panel-default">
       <div class="panel-body">
         <h3>{{player.name}}</h3>
         <div *ngIf="currentRoute === '/'">
@@ -13,3 +22,4 @@
       </div>
     </div>
   </div>
+</div>

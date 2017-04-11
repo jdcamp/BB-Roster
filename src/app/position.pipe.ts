@@ -7,19 +7,10 @@ import { Player } from './player.model';
 export class PositionPipe implements PipeTransform {
 
   transform(value: any, pos: string) {
-    //   let output: any = [];
-    // if (value === null) {
-    //   return;
-    // } else {
-    //   for (let i = 0; 0 < value.length; i++) {
-    //     if (value[i].position === pos) {
-    //       output.push(value[i]);
-    //       console.log(output);
-    //     }
-    //   }
-    // }
-    // return output;
     let output = null;
+    if (pos === 'all') {
+        return value;
+    }
     if ( value.position === pos) {
         output = value;
     }

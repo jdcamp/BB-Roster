@@ -15,8 +15,7 @@ import { Router } from '@angular/router';
 export class PlayerListComponent implements OnInit {
     players: FirebaseListObservable<any[]>;
     currentRoute: string = this.router.url;
-    playerPos: string = 'PG';
-
+    playerPos = 'all';
     constructor(private router: Router, private playerService: PlayerService) {}
 
     ngOnInit() {
@@ -24,6 +23,9 @@ export class PlayerListComponent implements OnInit {
     }
     viewPlayer(player) {
         this.router.navigate(['player', player.$key]);
+    }
+    onChange(e) {
+        this.playerPos = e;
     }
 
 }
