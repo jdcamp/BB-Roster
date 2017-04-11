@@ -3,7 +3,10 @@
 
     <h3 class="panel-heading">{{(playerToDisplay | async)?.name}}</h3>
     <div class="panel-body">
-      {{(playerToDisplay | async)?.position}}<br> {{(playerToDisplay | async)?.playerNumber}}
+<img src="{{(playerToDisplay | async)?.img}}" alt="{{(playerToDisplay | async)?.name}}">
+      <br>
+      Position: {{(playerToDisplay | async)?.position}}<br>
+      Number: {{(playerToDisplay | async)?.playerNumber}}
     </div>
   </div>
 

@@ -20,11 +20,11 @@ export class EditPlayerComponent implements OnInit {
       let num1 = Math.floor((Math.random() * 10 + 1));
       let num2 = Math.floor((Math.random() * 10 + 1));
       let ans = num1 + num2;
-      var userAnswer = parseInt(prompt("To Delete enter the answer to: " + num1 + "+" + num2, ""));
-      if(userAnswer === ans){
+      let userAnswer = parseInt(prompt('To Delete enter the answer to: ' + num1 + '+' + num2, ''));
+      if (userAnswer === ans) {
           this.playerService.deletePlayer(player);
       } else {
-          alert("Incorrect Answer");
+          alert('Incorrect Answer');
       }
   }
 

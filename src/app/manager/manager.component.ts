@@ -21,8 +21,6 @@ export class ManagerComponent implements OnInit {
           return;
       }
       let newPlayer: Player = new Player(name, position, playerNumber);
-      console.log(newPlayer);
-
       this.playerService.addPlayer(newPlayer);
   }
 
