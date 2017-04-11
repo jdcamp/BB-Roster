@@ -15,13 +15,18 @@ export class ManagerComponent implements OnInit {
   ngOnInit() {
   }
 
-  submitForm(name: string, position: string, playerNumber) {
+  submitForm(name: string, position: string, playerNumber, img) {
       if (name === '' || position === '' || playerNumber === '' ) {
           alert('Form not completed');
           return;
       }
-      let newPlayer: Player = new Player(name, position, playerNumber);
-      this.playerService.addPlayer(newPlayer);
+      if (img === '') {
+          let newPlayer: Player = new Player(name, position, playerNumber);
+          this.playerService.addPlayer(newPlayer);
+      } else {
+          let newPlayer: Player = new Player(name, position, playerNumber, img);
+          this.playerService.addPlayer(newPlayer);
+      }
   }
 
 }
