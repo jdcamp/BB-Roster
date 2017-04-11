@@ -17,7 +17,15 @@ export class EditPlayerComponent implements OnInit {
   }
 
   deletePlayerButton(player) {
-    this.playerService.deletePlayer(player);
+      let num1 = Math.floor((Math.random() * 10 + 1));
+      let num2 = Math.floor((Math.random() * 10 + 1));
+      let ans = num1 + num2;
+      var userAnswer = parseInt(prompt("To Delete enter the answer to: " + num1 + "+" + num2, ""));
+      if(userAnswer === ans){
+          this.playerService.deletePlayer(player);
+      } else {
+          alert("Incorrect Answer");
+      }
   }
 
 }

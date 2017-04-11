@@ -1,7 +1,7 @@
 # Roster by Jake Campa 4.7.2017
 
 ## Description
-
+_a website that tracks the players on a basketball team. It currently has the Roster for the Washington Wizards_
 ## Requirements
 
 - [Node.js and NPM](http://nodejs.org)
@@ -17,6 +17,7 @@
 - In terminal and run `bower install`
 - In terminal and run `ng serve`
 - Open web browser and go to `localhost:4200`
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
 
 ## Development server
@@ -32,10 +33,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 * As an administrator, I want to add new users to the club. (User authentication is not required).
 * As an administrator, I want to edit user profiles, in case I make a mistake, or need to update their details.
 * As an administrator, need the option to delete a user, in case they leave the club or team.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
 
 ## Build
 
