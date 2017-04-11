@@ -13,6 +13,7 @@ import { PlayerPageComponent } from './player-page/player-page.component';
 import { ManagerComponent } from './manager/manager.component';
 import { PlayerListComponent } from './player-list/player-list.component';
 import { EditPlayerComponent } from './edit-player/edit-player.component';
+import { PositionPipe } from './position.pipe';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -29,7 +30,8 @@ export const firebaseConfig = {
     PlayerPageComponent,
     ManagerComponent,
     PlayerListComponent,
-    EditPlayerComponent
+    EditPlayerComponent,
+    PositionPipe
   ],
   imports: [
     BrowserModule,

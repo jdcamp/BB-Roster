@@ -15,6 +15,7 @@ import { Router } from '@angular/router';
 export class PlayerListComponent implements OnInit {
     players: FirebaseListObservable<any[]>;
     currentRoute: string = this.router.url;
+    playerPos: string = 'PG';
 
     constructor(private router: Router, private playerService: PlayerService) {}
 
