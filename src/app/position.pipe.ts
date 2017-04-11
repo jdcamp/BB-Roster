@@ -9,10 +9,10 @@ export class PositionPipe implements PipeTransform {
   transform(value: any, pos: string) {
     let output = null;
     if (pos === 'all') {
-        return value;
+      return value;
     }
-    if ( value.position === pos) {
-        output = value;
+    if (value.position === pos) {
+      output = value;
     }
     return output;
   }

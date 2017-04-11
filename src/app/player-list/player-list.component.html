@@ -6,7 +6,6 @@
   <option value="PF">Power Forward</option>
   <option value="C">Center</option>
 </select>
-
 <div *ngFor="let player of players | async">
   <div *ngIf="player | position:playerPos">
     <div class="panel panel-default">

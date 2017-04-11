@@ -24,8 +24,6 @@ export class ManagerComponent implements OnInit {
       console.log(newPlayer);
 
       this.playerService.addPlayer(newPlayer);
-
-
   }
 
 }

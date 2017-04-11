@@ -10,7 +10,6 @@ import { Router } from '@angular/router';
   templateUrl: './player-list.component.html',
   styleUrls: ['./player-list.component.css'],
   providers: [PlayerService]
-
 })
 export class PlayerListComponent implements OnInit {
     players: FirebaseListObservable<any[]>;
@@ -24,8 +23,8 @@ export class PlayerListComponent implements OnInit {
     viewPlayer(player) {
         this.router.navigate(['player', player.$key]);
     }
-    onChange(e) {
-        this.playerPos = e;
+    onChange(value) {
+        this.playerPos = value;
     }
 
 }

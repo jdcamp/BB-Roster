@@ -9,7 +9,7 @@ import { PlayerService} from '../player.service';
   providers: [PlayerService]
 })
 export class EditPlayerComponent implements OnInit {
-    @Input() currentPlayer;
+  @Input() currentPlayer;
 
   constructor(private playerService: PlayerService) { }
 
@@ -17,7 +17,7 @@ export class EditPlayerComponent implements OnInit {
   }
 
   deletePlayerButton(player) {
-      this.playerService.deletePlayer(player);
+    this.playerService.deletePlayer(player);
   }
 
 }
