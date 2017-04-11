@@ -3,17 +3,20 @@
 <label>Edit Name:</label>
 <input [(ngModel)]="currentPlayer.name">
 <br>
-
-<!--
-<input type="button" name="position" value="PG">
-<input type="button" name="position" value="SG">
-<input type="button" name="position" value="SF">
-<input type="button" name="position" value="PF">
-<input type="button" name="position" value="C"> -->
-
+<select [(ngModel)]="currentPlayer.position">
+ <option value="PG" [selected]="currentPlayer.position === 'PG'">Point Guard</option>
+ <option value="SG" [selected]="currentPlayer.position === 'SG'">Shooting Guard</option>
+ <option value="SF" [selected]="currentPlayer.position === 'SF'">Small Forward</option>
+ <option value="PF" [selected]="currentPlayer.position === 'PF'">Power Forward</option>
+ <option value="C" [selected]="currentPlayer.position === 'C'">Center</option>
+ </select>
 <br>
 
 <label>Player Number:</label>
 <input [(ngModel)]="currentPlayer.playerNumber">
+<br>
+
+<label>Player Image Link:</label>
+<input [(ngModel)]="currentPlayer.img">
 
 <button type="button" class="btn" name="button" (click)="deletePlayerButton(currentPlayer)">Delete</button>
