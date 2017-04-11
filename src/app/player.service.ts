@@ -24,5 +24,16 @@ export class PlayerService {
     fbPlayerObj.remove();
   }
 
+  updatePlayer(playerToUpdate) {
+      let fbPlayerObj = this.getPlayer(playerToUpdate.$key);
+      fbPlayerObj.update({
+          name: playerToUpdate.name,
+          position: playerToUpdate.position,
+          playerNumber: playerToUpdate.playerNumber,
+          img: playerToUpdate.img
+      })
+
+  }
+
 
 }

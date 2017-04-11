@@ -27,5 +27,8 @@ export class EditPlayerComponent implements OnInit {
           alert('Incorrect Answer');
       }
   }
+  updatePlayerButton(player) {
+      this.playerService.updatePlayer(player);
+  }
 
 }
