@@ -3,73 +3,73 @@
         [{
                 "name": "Kelly Oubre",
                 "playerNumber": 1,
-                "postion": "SF",
+                "position": "SF",
                 "img": "http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3133603.png&w=350&h=254"
             },
             {
                 "name": "Ian Mahinmi",
                 "playerNumber": 2,
-                "postion": "C",
+                "position": "C",
                 "img": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/101133.png"
             },
             {
                 "name": "Jason Smith",
                 "playerNumber": 3,
-                "postion": "C",
+                "position": "C",
                 "img":"http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201160.png"
             },
             {
                 "name": "Markieff Morris",
                 "playerNumber": 4,
-                "postion": "PF",
+                "position": "PF",
                 "img":"http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202693.png"
             },
             {
                 "name": "Trey Burke",
                 "playerNumber": 5,
-                "postion": "PG",
+                "position": "PG",
                 "img":"http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203504.png"
             },
             {
                 "name": "Otto Porter",
                 "playerNumber": 6,
-                "postion": "SF",
+                "position": "SF",
                 "img":"http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2594922.png"
             },
             {
                 "name": "Bradley Beal",
                 "playerNumber": 7,
-                "postion": "SG",
+                "position": "SG",
                 "img":"http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6580.png"
             },
             {
                 "name": "Chris McCullough",
                 "playerNumber": 8,
-                "postion": "SF",
+                "position": "SF",
                 "img":"http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3153165.png&w=350&h=254"
             },
             {
                 "name": "John Wall",
                 "playerNumber": 9,
-                "postion": "PG",
+                "position": "PG",
                 "img":"http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4237.png"
             },
             {
                 "name": "Marcin Gortat",
                 "playerNumber": 10,
-                "postion": "C",
+                "position": "C",
                 "img":"http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2758.png"
             },
             {
                 "name": "Daniel Ochefu",
                 "playerNumber": 11,
-                "postion": "PF",
+                "position": "PF",
                 "img":"http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627849.png"
             },
             {
                 "name": "Tomas Satoransky",
                 "playerNumber": 12,
-                "postion": "SG",
+                "position": "SG",
                 "img":"http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203107.png"
             }
         ]

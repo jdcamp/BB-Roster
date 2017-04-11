@@ -16,7 +16,6 @@
           <button type="button" name="button" class="btn btn-default pull-right" (click)="viewPlayer(player)">View {{player.name}}'s details</button>
         </div>
         <div *ngIf="currentRoute === '/manager'">
-          <h3>{{player.$key}}</h3>
           <app-edit-player [currentPlayer]="player"></app-edit-player>
         </div>
       </div>

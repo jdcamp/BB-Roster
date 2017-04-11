@@ -7,6 +7,7 @@ import { Player } from './player.model';
 export class PositionPipe implements PipeTransform {
 
   transform(value: any, pos: string) {
+      console.log(value);
     let output = null;
     if (pos === 'all') {
       return value;
